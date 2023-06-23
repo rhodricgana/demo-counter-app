@@ -29,6 +29,7 @@ pipeline{
                 script{
                     
                     sh 'mvn verify -DskipUnitTests'
+                    }
                 }
             }
         }
